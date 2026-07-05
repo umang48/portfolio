@@ -1,11 +1,17 @@
+// src/App.jsx
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Portfolio Initialization Complete
-      </h1>
+    <div className="antialiased text-gray-900 bg-white">
+      <Navbar />
+      <main>
+        <Hero />
+        {/* We will build and add the Projects, Skills, and Contact sections here next */}
+      </main>
     </div>
   )
 }
 
-export default App
+export default App;
