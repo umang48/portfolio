@@ -1,6 +1,8 @@
 // src/App.jsx
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -8,7 +10,8 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        {/* We will build and add the Projects, Skills, and Contact sections here next */}
+        <Projects />
+        <Skills />
       </main>
     </div>
   )
