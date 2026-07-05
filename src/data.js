@@ -33,5 +33,12 @@ export const projects = [
     description: "A responsive tracking dashboard visualizing real-time cryptocurrency market trends and data.",
     link: "https://crypto-market-dashboard.phptutorialpoints.in/",
     tags: ["React", "API Integration", "Data Viz"]
+  },
+  {
+    id: 5,
+    title: "Health & Nutrition PWA (In Development)",
+    description: "A modern Progressive Web App built with React and Tailwind CSS. It is designed to provide tailored nutritional guidance and identify specific foods to avoid for specialized dietary management.",
+    link: "#",
+    tags: ["React", "Tailwind CSS", "PWA", "Coming Soon"]
   }
 ];
